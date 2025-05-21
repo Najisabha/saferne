@@ -1,0 +1,33 @@
+body.round2 {
+
+$tour-egypt-bg: #003496;
+$tour-egypt-text: #fff;
+background-color: $tour-egypt-bg;
+
+  .intro-section {
+    color: $tour-egypt-text;
+  }
+
+  .gallery-section {
+    background-color: $tour-egypt-bg;
+
+    img {
+      transition: transform 0.3s ease;
+      &:hover {
+        transform: scale(1.05);
+      }
+    }
+  }
+  .booking-section {
+    color: $tour-egypt-text;
+
+    .booking-form {
+      input,
+      select,
+      textarea {
+        color: $tour-egypt-text;
+        border: 1px solid $tour-egypt-text;
+      }
+    }
+  }
+}

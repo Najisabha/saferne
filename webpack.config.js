@@ -76,6 +76,7 @@ module.exports = {
   plugins: [
     new HtmlWebpackPlugin({ template: './src/index.html' }),
     new HtmlWebpackPlugin({ filename: 'round.html', template: './src/round.html' }),
+    new HtmlWebpackPlugin({ filename: 'round2.html', template: './src/round2.html' }),
     new HtmlWebpackPlugin({ filename: 'Login.html', template: './src/Login.html' }),
     new HtmlWebpackPlugin({ filename: 'create_account.html', template: './src/create_account.html' }),
     ...(!isDevelopment ? [new MiniCssExtractPlugin({ filename: '[name].css' })] : [])
