@@ -1,0 +1,28 @@
+@use "./base/variables" as *;
+@use "./page/create_account.scss" as *;
+@use "./page/index.scss" as *;
+@use "./page/Login.scss" as *;
+@use "./page/round.scss" as *;
+
+body {
+  background-color: $primary-color;
+  color: white;
+
+}
+
+nav {
+  background: #00b7ff;
+  li {
+    font-family: "Tajawal", sans-serif;
+    font-weight: 200;
+    font-style: normal;
+  }
+  img {
+    width: 70%;
+    height: auto;
+    }
+}
+
+.btn {
+  margin : 10px;
+}
