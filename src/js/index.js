@@ -7,12 +7,14 @@ function importAllImages(r) {
   return r.keys().map(r);
 }
 
-const images = importAllImages(require.context('../assets/images', false, /\.(png|jpe?g|svg|webp)$/));
-
-const gallery = document.getElementById('gallery');
-images.forEach(src => {
-  const img = document.createElement('img');
-  img.src = src;
-  img.alt = 'صورة';
-  gallery.appendChild(img);
+document.addEventListener("DOMContentLoaded", () => {
+  // تأكد أن العنصر موجود داخل هذا البلوك
+  const container = document.getElementById("gallery"); // مثلاً
+  if (container) {
+    const img = document.createElement("img");
+    img.src = "image.jpg";
+    container.appendChild(img);
+  } else {
+    console.error("العنصر غير موجود في الصفحة");
+  }
 });
