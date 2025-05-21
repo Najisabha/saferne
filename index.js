@@ -1004,7 +1004,7 @@ eval("__webpack_require__.r(__webpack_exports__);\n/* harmony export */ __webpac
   \************************************************/
 /***/ ((module, __unused_webpack_exports, __webpack_require__) => {
 
-eval("/*\n\tMIT License http://www.opensource.org/licenses/mit-license.php\n\tAuthor Tobias Koppers @sokra\n*/\n/* globals __webpack_hash__ */\nif (true) {\n\t/** @type {undefined|string} */\n\tvar lastHash;\n\tvar upToDate = function upToDate() {\n\t\treturn /** @type {string} */ (lastHash).indexOf(__webpack_require__.h()) >= 0;\n\t};\n\tvar log = __webpack_require__(/*! ./log */ \"./node_modules/webpack/hot/log.js\");\n\tvar check = function check() {\n\t\tmodule.hot\n\t\t\t.check(true)\n\t\t\t.then(function (updatedModules) {\n\t\t\t\tif (!updatedModules) {\n\t\t\t\t\tlog(\n\t\t\t\t\t\t\"warning\",\n\t\t\t\t\t\t\"[HMR] Cannot find update. \" +\n\t\t\t\t\t\t\t(typeof window !== \"undefined\"\n\t\t\t\t\t\t\t\t? \"Need to do a full reload!\"\n\t\t\t\t\t\t\t\t: \"Please reload manually!\")\n\t\t\t\t\t);\n\t\t\t\t\tlog(\n\t\t\t\t\t\t\"warning\",\n\t\t\t\t\t\t\"[HMR] (Probably because of restarting the webpack-dev-server)\"\n\t\t\t\t\t);\n\t\t\t\t\tif (typeof window !== \"undefined\") {\n\t\t\t\t\t\twindow.location.reload();\n\t\t\t\t\t}\n\t\t\t\t\treturn;\n\t\t\t\t}\n\n\t\t\t\tif (!upToDate()) {\n\t\t\t\t\tcheck();\n\t\t\t\t}\n\n\t\t\t\t__webpack_require__(/*! ./log-apply-result */ \"./node_modules/webpack/hot/log-apply-result.js\")(updatedModules, updatedModules);\n\n\t\t\t\tif (upToDate()) {\n\t\t\t\t\tlog(\"info\", \"[HMR] App is up to date.\");\n\t\t\t\t}\n\t\t\t})\n\t\t\t.catch(function (err) {\n\t\t\t\tvar status = module.hot.status();\n\t\t\t\tif ([\"abort\", \"fail\"].indexOf(status) >= 0) {\n\t\t\t\t\tlog(\n\t\t\t\t\t\t\"warning\",\n\t\t\t\t\t\t\"[HMR] Cannot apply update. \" +\n\t\t\t\t\t\t\t(typeof window !== \"undefined\"\n\t\t\t\t\t\t\t\t? \"Need to do a full reload!\"\n\t\t\t\t\t\t\t\t: \"Please reload manually!\")\n\t\t\t\t\t);\n\t\t\t\t\tlog(\"warning\", \"[HMR] \" + log.formatError(err));\n\t\t\t\t\tif (typeof window !== \"undefined\") {\n\t\t\t\t\t\twindow.location.reload();\n\t\t\t\t\t}\n\t\t\t\t} else {\n\t\t\t\t\tlog(\"warning\", \"[HMR] Update failed: \" + log.formatError(err));\n\t\t\t\t}\n\t\t\t});\n\t};\n\tvar hotEmitter = __webpack_require__(/*! ./emitter */ \"./node_modules/webpack/hot/emitter.js\");\n\thotEmitter.on(\"webpackHotUpdate\", function (currentHash) {\n\t\tlastHash = currentHash;\n\t\tif (!upToDate() && module.hot.status() === \"idle\") {\n\t\t\tlog(\"info\", \"[HMR] Checking for updates on the server...\");\n\t\t\tcheck();\n\t\t}\n\t});\n\tlog(\"info\", \"[HMR] Waiting for update signal from WDS...\");\n} else // removed by dead control flow\n{}\n\n\n//# sourceURL=webpack://safarni-gallery/./node_modules/webpack/hot/dev-server.js?");
+eval("/*\n\tMIT License http://www.opensource.org/licenses/mit-license.php\n\tAuthor Tobias Koppers @sokra\n*/\n/* globals __webpack_hash__ */\nif (true) {\n\t/** @type {undefined|string} */\n\tvar lastHash;\n\tvar upToDate = function upToDate() {\n\t\treturn /** @type {string} */ (lastHash).indexOf(__webpack_require__.h()) >= 0;\n\t};\n\tvar log = __webpack_require__(/*! ./log */ \"./node_modules/webpack/hot/log.js\");\n\tvar check = function check() {\n\t\tmodule.hot\n\t\t\t.check(true)\n\t\t\t.then(function (updatedModules) {\n\t\t\t\tif (!updatedModules) {\n\t\t\t\t\tlog(\n\t\t\t\t\t\t\"warning\",\n\t\t\t\t\t\t\"[HMR] Cannot find update. \" +\n\t\t\t\t\t\t\t(typeof window !== \"undefined\"\n\t\t\t\t\t\t\t\t? \"Need to do a full reload!\"\n\t\t\t\t\t\t\t\t: \"Please reload manually!\")\n\t\t\t\t\t);\n\t\t\t\t\tlog(\n\t\t\t\t\t\t\"warning\",\n\t\t\t\t\t\t\"[HMR] (Probably because of restarting the webpack-dev-server)\"\n\t\t\t\t\t);\n\t\t\t\t\tif (typeof window !== \"undefined\") {\n\t\t\t\t\t\twindow.location.reload();\n\t\t\t\t\t}\n\t\t\t\t\treturn;\n\t\t\t\t}\n\n\t\t\t\tif (!upToDate()) {\n\t\t\t\t\tcheck();\n\t\t\t\t}\n\n\t\t\t\t__webpack_require__(/*! ./log-apply-result */ \"./node_modules/webpack/hot/log-apply-result.js\")(updatedModules, updatedModules);\n\n\t\t\t\tif (upToDate()) {\n\t\t\t\t\tlog(\"info\", \"[HMR] App is up to date.\");\n\t\t\t\t}\n\t\t\t})\n\t\t\t.catch(function (err) {\n\t\t\t\tvar status = module.hot.status();\n\t\t\t\tif ([\"abort\", \"fail\"].indexOf(status) >= 0) {\n\t\t\t\t\tlog(\n\t\t\t\t\t\t\"warning\",\n\t\t\t\t\t\t\"[HMR] Cannot apply update. \" +\n\t\t\t\t\t\t\t(typeof window !== \"undefined\"\n\t\t\t\t\t\t\t\t? \"Need to do a full reload!\"\n\t\t\t\t\t\t\t\t: \"Please reload manually!\")\n\t\t\t\t\t);\n\t\t\t\t\tlog(\"warning\", \"[HMR] \" + log.formatError(err));\n\t\t\t\t\tif (typeof window !== \"undefined\") {\n\t\t\t\t\t\twindow.location.reload();\n\t\t\t\t\t}\n\t\t\t\t} else {\n\t\t\t\t\tlog(\"warning\", \"[HMR] Update failed: \" + log.formatError(err));\n\t\t\t\t}\n\t\t\t});\n\t};\n\tvar hotEmitter = __webpack_require__(/*! ./emitter */ \"./node_modules/webpack/hot/emitter.js\");\n\thotEmitter.on(\"webpackHotUpdate\", function (currentHash) {\n\t\tlastHash = currentHash;\n\t\tif (!upToDate() && module.hot.status() === \"idle\") {\n\t\t\tlog(\"info\", \"[HMR] Checking for updates on the server...\");\n\t\t\tcheck();\n\t\t}\n\t});\n\tlog(\"info\", \"[HMR] Waiting for update signal from WDS...\");\n} else {}\n\n\n//# sourceURL=webpack://safarni-gallery/./node_modules/webpack/hot/dev-server.js?");
 
 /***/ }),
 
@@ -1038,225 +1038,6 @@ eval("/** @typedef {\"info\" | \"warning\" | \"error\"} LogLevel */\n\n/** @type
 
 /***/ }),
 
-/***/ "./src/assets/images sync \\.(png%7Cjpe?g%7Csvg%7Cwebp)$":
-/*!****************************************************************************!*\
-  !*** ./src/assets/images/ sync nonrecursive \.(png%7Cjpe?g%7Csvg%7Cwebp)$ ***!
-  \****************************************************************************/
-/***/ ((module, __unused_webpack_exports, __webpack_require__) => {
-
-eval("var map = {\n\t\"./Trip_1.jpg\": \"./src/assets/images/Trip_1.jpg\",\n\t\"./Trip_2.jpg\": \"./src/assets/images/Trip_2.jpg\",\n\t\"./Trip_2_1.jpg\": \"./src/assets/images/Trip_2_1.jpg\",\n\t\"./Trip_2_2.jpg\": \"./src/assets/images/Trip_2_2.jpg\",\n\t\"./Trip_2_3.jpg\": \"./src/assets/images/Trip_2_3.jpg\",\n\t\"./Trip_2_4.jpg\": \"./src/assets/images/Trip_2_4.jpg\",\n\t\"./Trip_2_5.jpg\": \"./src/assets/images/Trip_2_5.jpg\",\n\t\"./Trip_2_6.jpg\": \"./src/assets/images/Trip_2_6.jpg\",\n\t\"./Trip_2_7.jpg\": \"./src/assets/images/Trip_2_7.jpg\",\n\t\"./Trip_2_8.jpg\": \"./src/assets/images/Trip_2_8.jpg\",\n\t\"./logo.png\": \"./src/assets/images/logo.png\",\n\t\"./logo.svg\": \"./src/assets/images/logo.svg\",\n\t\"./turksh_1.jpg\": \"./src/assets/images/turksh_1.jpg\",\n\t\"./turksh_2.jpg\": \"./src/assets/images/turksh_2.jpg\",\n\t\"./turksh_3.jpg\": \"./src/assets/images/turksh_3.jpg\",\n\t\"./turksh_4.jpg\": \"./src/assets/images/turksh_4.jpg\",\n\t\"./turksh_5.jpg\": \"./src/assets/images/turksh_5.jpg\",\n\t\"./turksh_6.jpg\": \"./src/assets/images/turksh_6.jpg\",\n\t\"./turksh_7.jpg\": \"./src/assets/images/turksh_7.jpg\"\n};\n\n\nfunction webpackContext(req) {\n\tvar id = webpackContextResolve(req);\n\treturn __webpack_require__(id);\n}\nfunction webpackContextResolve(req) {\n\tif(!__webpack_require__.o(map, req)) {\n\t\tvar e = new Error(\"Cannot find module '\" + req + \"'\");\n\t\te.code = 'MODULE_NOT_FOUND';\n\t\tthrow e;\n\t}\n\treturn map[req];\n}\nwebpackContext.keys = function webpackContextKeys() {\n\treturn Object.keys(map);\n};\nwebpackContext.resolve = webpackContextResolve;\nmodule.exports = webpackContext;\nwebpackContext.id = \"./src/assets/images sync \\\\.(png%7Cjpe?g%7Csvg%7Cwebp)$\";\n\n//# sourceURL=webpack://safarni-gallery/./src/assets/images/_sync_nonrecursive_\\.(png%257Cjpe?");
-
-/***/ }),
-
-/***/ "./src/assets/images/Trip_1.jpg":
-/*!**************************************!*\
-  !*** ./src/assets/images/Trip_1.jpg ***!
-  \**************************************/
-/***/ ((module, __unused_webpack_exports, __webpack_require__) => {
-
-"use strict";
-eval("module.exports = __webpack_require__.p + \"assets/Trip_1.jpg\";\n\n//# sourceURL=webpack://safarni-gallery/./src/assets/images/Trip_1.jpg?");
-
-/***/ }),
-
-/***/ "./src/assets/images/Trip_2.jpg":
-/*!**************************************!*\
-  !*** ./src/assets/images/Trip_2.jpg ***!
-  \**************************************/
-/***/ ((module, __unused_webpack_exports, __webpack_require__) => {
-
-"use strict";
-eval("module.exports = __webpack_require__.p + \"assets/Trip_2.jpg\";\n\n//# sourceURL=webpack://safarni-gallery/./src/assets/images/Trip_2.jpg?");
-
-/***/ }),
-
-/***/ "./src/assets/images/Trip_2_1.jpg":
-/*!****************************************!*\
-  !*** ./src/assets/images/Trip_2_1.jpg ***!
-  \****************************************/
-/***/ ((module, __unused_webpack_exports, __webpack_require__) => {
-
-"use strict";
-eval("module.exports = __webpack_require__.p + \"assets/Trip_2_1.jpg\";\n\n//# sourceURL=webpack://safarni-gallery/./src/assets/images/Trip_2_1.jpg?");
-
-/***/ }),
-
-/***/ "./src/assets/images/Trip_2_2.jpg":
-/*!****************************************!*\
-  !*** ./src/assets/images/Trip_2_2.jpg ***!
-  \****************************************/
-/***/ ((module, __unused_webpack_exports, __webpack_require__) => {
-
-"use strict";
-eval("module.exports = __webpack_require__.p + \"assets/Trip_2_2.jpg\";\n\n//# sourceURL=webpack://safarni-gallery/./src/assets/images/Trip_2_2.jpg?");
-
-/***/ }),
-
-/***/ "./src/assets/images/Trip_2_3.jpg":
-/*!****************************************!*\
-  !*** ./src/assets/images/Trip_2_3.jpg ***!
-  \****************************************/
-/***/ ((module, __unused_webpack_exports, __webpack_require__) => {
-
-"use strict";
-eval("module.exports = __webpack_require__.p + \"assets/Trip_2_3.jpg\";\n\n//# sourceURL=webpack://safarni-gallery/./src/assets/images/Trip_2_3.jpg?");
-
-/***/ }),
-
-/***/ "./src/assets/images/Trip_2_4.jpg":
-/*!****************************************!*\
-  !*** ./src/assets/images/Trip_2_4.jpg ***!
-  \****************************************/
-/***/ ((module, __unused_webpack_exports, __webpack_require__) => {
-
-"use strict";
-eval("module.exports = __webpack_require__.p + \"assets/Trip_2_4.jpg\";\n\n//# sourceURL=webpack://safarni-gallery/./src/assets/images/Trip_2_4.jpg?");
-
-/***/ }),
-
-/***/ "./src/assets/images/Trip_2_5.jpg":
-/*!****************************************!*\
-  !*** ./src/assets/images/Trip_2_5.jpg ***!
-  \****************************************/
-/***/ ((module, __unused_webpack_exports, __webpack_require__) => {
-
-"use strict";
-eval("module.exports = __webpack_require__.p + \"assets/Trip_2_5.jpg\";\n\n//# sourceURL=webpack://safarni-gallery/./src/assets/images/Trip_2_5.jpg?");
-
-/***/ }),
-
-/***/ "./src/assets/images/Trip_2_6.jpg":
-/*!****************************************!*\
-  !*** ./src/assets/images/Trip_2_6.jpg ***!
-  \****************************************/
-/***/ ((module, __unused_webpack_exports, __webpack_require__) => {
-
-"use strict";
-eval("module.exports = __webpack_require__.p + \"assets/Trip_2_6.jpg\";\n\n//# sourceURL=webpack://safarni-gallery/./src/assets/images/Trip_2_6.jpg?");
-
-/***/ }),
-
-/***/ "./src/assets/images/Trip_2_7.jpg":
-/*!****************************************!*\
-  !*** ./src/assets/images/Trip_2_7.jpg ***!
-  \****************************************/
-/***/ ((module, __unused_webpack_exports, __webpack_require__) => {
-
-"use strict";
-eval("module.exports = __webpack_require__.p + \"assets/Trip_2_7.jpg\";\n\n//# sourceURL=webpack://safarni-gallery/./src/assets/images/Trip_2_7.jpg?");
-
-/***/ }),
-
-/***/ "./src/assets/images/Trip_2_8.jpg":
-/*!****************************************!*\
-  !*** ./src/assets/images/Trip_2_8.jpg ***!
-  \****************************************/
-/***/ ((module, __unused_webpack_exports, __webpack_require__) => {
-
-"use strict";
-eval("module.exports = __webpack_require__.p + \"assets/Trip_2_8.jpg\";\n\n//# sourceURL=webpack://safarni-gallery/./src/assets/images/Trip_2_8.jpg?");
-
-/***/ }),
-
-/***/ "./src/assets/images/logo.png":
-/*!************************************!*\
-  !*** ./src/assets/images/logo.png ***!
-  \************************************/
-/***/ ((module, __unused_webpack_exports, __webpack_require__) => {
-
-"use strict";
-eval("module.exports = __webpack_require__.p + \"assets/logo.png\";\n\n//# sourceURL=webpack://safarni-gallery/./src/assets/images/logo.png?");
-
-/***/ }),
-
-/***/ "./src/assets/images/logo.svg":
-/*!************************************!*\
-  !*** ./src/assets/images/logo.svg ***!
-  \************************************/
-/***/ ((module, __unused_webpack_exports, __webpack_require__) => {
-
-"use strict";
-eval("module.exports = __webpack_require__.p + \"assets/logo.svg\";\n\n//# sourceURL=webpack://safarni-gallery/./src/assets/images/logo.svg?");
-
-/***/ }),
-
-/***/ "./src/assets/images/turksh_1.jpg":
-/*!****************************************!*\
-  !*** ./src/assets/images/turksh_1.jpg ***!
-  \****************************************/
-/***/ ((module, __unused_webpack_exports, __webpack_require__) => {
-
-"use strict";
-eval("module.exports = __webpack_require__.p + \"assets/turksh_1.jpg\";\n\n//# sourceURL=webpack://safarni-gallery/./src/assets/images/turksh_1.jpg?");
-
-/***/ }),
-
-/***/ "./src/assets/images/turksh_2.jpg":
-/*!****************************************!*\
-  !*** ./src/assets/images/turksh_2.jpg ***!
-  \****************************************/
-/***/ ((module, __unused_webpack_exports, __webpack_require__) => {
-
-"use strict";
-eval("module.exports = __webpack_require__.p + \"assets/turksh_2.jpg\";\n\n//# sourceURL=webpack://safarni-gallery/./src/assets/images/turksh_2.jpg?");
-
-/***/ }),
-
-/***/ "./src/assets/images/turksh_3.jpg":
-/*!****************************************!*\
-  !*** ./src/assets/images/turksh_3.jpg ***!
-  \****************************************/
-/***/ ((module, __unused_webpack_exports, __webpack_require__) => {
-
-"use strict";
-eval("module.exports = __webpack_require__.p + \"assets/turksh_3.jpg\";\n\n//# sourceURL=webpack://safarni-gallery/./src/assets/images/turksh_3.jpg?");
-
-/***/ }),
-
-/***/ "./src/assets/images/turksh_4.jpg":
-/*!****************************************!*\
-  !*** ./src/assets/images/turksh_4.jpg ***!
-  \****************************************/
-/***/ ((module, __unused_webpack_exports, __webpack_require__) => {
-
-"use strict";
-eval("module.exports = __webpack_require__.p + \"assets/turksh_4.jpg\";\n\n//# sourceURL=webpack://safarni-gallery/./src/assets/images/turksh_4.jpg?");
-
-/***/ }),
-
-/***/ "./src/assets/images/turksh_5.jpg":
-/*!****************************************!*\
-  !*** ./src/assets/images/turksh_5.jpg ***!
-  \****************************************/
-/***/ ((module, __unused_webpack_exports, __webpack_require__) => {
-
-"use strict";
-eval("module.exports = __webpack_require__.p + \"assets/turksh_5.jpg\";\n\n//# sourceURL=webpack://safarni-gallery/./src/assets/images/turksh_5.jpg?");
-
-/***/ }),
-
-/***/ "./src/assets/images/turksh_6.jpg":
-/*!****************************************!*\
-  !*** ./src/assets/images/turksh_6.jpg ***!
-  \****************************************/
-/***/ ((module, __unused_webpack_exports, __webpack_require__) => {
-
-"use strict";
-eval("module.exports = __webpack_require__.p + \"assets/turksh_6.jpg\";\n\n//# sourceURL=webpack://safarni-gallery/./src/assets/images/turksh_6.jpg?");
-
-/***/ }),
-
-/***/ "./src/assets/images/turksh_7.jpg":
-/*!****************************************!*\
-  !*** ./src/assets/images/turksh_7.jpg ***!
-  \****************************************/
-/***/ ((module, __unused_webpack_exports, __webpack_require__) => {
-
-"use strict";
-eval("module.exports = __webpack_require__.p + \"assets/turksh_7.jpg\";\n\n//# sourceURL=webpack://safarni-gallery/./src/assets/images/turksh_7.jpg?");
-
-/***/ }),
-
 /***/ "./src/js/index.js":
 /*!*************************!*\
   !*** ./src/js/index.js ***!
@@ -1264,7 +1045,7 @@ eval("module.exports = __webpack_require__.p + \"assets/turksh_7.jpg\";\n\n//# s
 /***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
 
 "use strict";
-eval("__webpack_require__.r(__webpack_exports__);\n/* harmony import */ var bootstrap_dist_css_bootstrap_min_css__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! bootstrap/dist/css/bootstrap.min.css */ \"./node_modules/bootstrap/dist/css/bootstrap.min.css\");\n/* harmony import */ var bootstrap__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! bootstrap */ \"./node_modules/bootstrap/dist/js/bootstrap.esm.js\");\n/* harmony import */ var _scss_main_scss__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ../scss/main.scss */ \"./src/scss/main.scss\");\n/* harmony import */ var _fortawesome_fontawesome_free_css_all_min_css__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! @fortawesome/fontawesome-free/css/all.min.css */ \"./node_modules/@fortawesome/fontawesome-free/css/all.min.css\");\n\n // إذا كنت تحتاج JS\n // Sass الخاص بك\n\nfunction importAllImages(r) {\n  return r.keys().map(r);\n}\nconst images = importAllImages(__webpack_require__(\"./src/assets/images sync \\\\.(png%7Cjpe?g%7Csvg%7Cwebp)$\"));\nconst gallery = document.getElementById('gallery');\nimages.forEach(src => {\n  const img = document.createElement('img');\n  img.src = src;\n  img.alt = 'صورة';\n  gallery.appendChild(img);\n});\n\n//# sourceURL=webpack://safarni-gallery/./src/js/index.js?");
+eval("__webpack_require__.r(__webpack_exports__);\n/* harmony import */ var bootstrap_dist_css_bootstrap_min_css__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! bootstrap/dist/css/bootstrap.min.css */ \"./node_modules/bootstrap/dist/css/bootstrap.min.css\");\n/* harmony import */ var bootstrap__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! bootstrap */ \"./node_modules/bootstrap/dist/js/bootstrap.esm.js\");\n/* harmony import */ var _scss_main_scss__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ../scss/main.scss */ \"./src/scss/main.scss\");\n/* harmony import */ var _fortawesome_fontawesome_free_css_all_min_css__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! @fortawesome/fontawesome-free/css/all.min.css */ \"./node_modules/@fortawesome/fontawesome-free/css/all.min.css\");\n\n // إذا كنت تحتاج JS\n // Sass الخاص بك\n\nfunction importAllImages(r) {\n  return r.keys().map(r);\n}\ndocument.addEventListener(\"DOMContentLoaded\", () => {\n  // تأكد أن العنصر موجود داخل هذا البلوك\n  const container = document.getElementById(\"gallery\"); // مثلاً\n  if (container) {\n    const img = document.createElement(\"img\");\n    img.src = \"image.jpg\";\n    container.appendChild(img);\n  } else {\n    console.error(\"العنصر غير موجود في الصفحة\");\n  }\n});\n\n//# sourceURL=webpack://safarni-gallery/./src/js/index.js?");
 
 /***/ }),
 
@@ -1567,7 +1348,7 @@ eval("module.exports = \"data:image/svg+xml,%3csvg xmlns=%27http://www.w3.org/20
 /******/ 	
 /******/ 	/* webpack/runtime/getFullHash */
 /******/ 	(() => {
-/******/ 		__webpack_require__.h = () => ("9a40fae05b6a9e357af8")
+/******/ 		__webpack_require__.h = () => ("5b76f804c44f24c51df0")
 /******/ 	})();
 /******/ 	
 /******/ 	/* webpack/runtime/global */
