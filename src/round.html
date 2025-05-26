@@ -1,142 +1,145 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="ar" dir="rtl">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>شركة سفرني</title>
 </head>
 <body class="round" id="gallery">
   <header>
     <nav class="navbar navbar-expand-lg ">
-  <div class="container-fluid">
-    <a class="navbar-brand" href="index.html"><img src="./assets/images/logo.png" class="logo" alt=""></a>
-    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-      <span class="navbar-toggler-icon"></span>
-    </button>
-    <div class="collapse navbar-collapse" id="navbarSupportedContent">
-      <ul class="navbar-nav me-auto mb-2 mb-lg-0">
-        <li class="nav-item btn btn-primary">
-          <a class="nav-link active" href="Login.html">تسجيل الدخول </a>
-        </li>
-        <li class="nav-item btn btn-danger">
-          <a class="nav-link " href="#"> جولة </a>
-        </li>
-        <li class="nav-item btn btn-success">
-          <a class="nav-link " href="#"> خدماتنا </a>
-        </li>
-        <li class="nav-item btn btn-info">
-          <a class="nav-link " href="#"> تواصل معنى </a>
-        </li>
-      </ul>
-    </div>
-  </div>
-</nav>
+      <div class="container-fluid">
+        <a class="navbar-brand" href="index.html"><img src="./assets/images/logo.png" class="logo" alt=""></a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+          <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+            <li class="nav-item btn btn-light">
+              <a class="nav-link active" href="Login.html">تسجيل الدخول </a>
+            </li>
+            <li class="nav-item btn btn-light">
+              <a class="nav-link " href="#tours"> جولة </a>
+            </li>
+            <li class="nav-item btn btn-light">
+              <a class="nav-link " href="#services"> خدماتنا </a>
+            </li>
+            <li class="nav-item btn btn-light">
+              <a class="nav-link " href="#contact-us"> تواصل معنى </a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </nav>
   </header>
     <!-- معرض الصور -->
 <section class="gallery-section py-5">
-  <div class="container">
-      <h1 class="mb-4 text-center">رحلة إلى الأهرامات في مصر</h1>
-    
-    <div id="tourCarousel" class="carousel slide" data-bs-ride="carousel">
-      <div class="carousel-inner">
+  <div class="row">
+    <div class="col-md-6">
+        <div class="container">
+            <h1 class="mb-4 text-center">رحلة إلى الأهرامات في مصر</h1>
+          <div id="tourCarousel" class="carousel slide" data-bs-ride="carousel">
+            <div class="carousel-inner">
 
-        <div class="carousel-item active">
-          <img src="./assets/images/Trip_2_1.jpg" class="d-block w-100 rounded shadow-sm" alt="هرم خوفو">
+              <div class="carousel-item active">
+                <img src="./assets/images/Trip_2_1.jpg" class="d-block w-100 rounded shadow-sm" alt="هرم خوفو">
+              </div>
+
+              <div class="carousel-item">
+                <img src="./assets/images/Trip_2_2.jpg" class="d-block w-100 rounded shadow-sm" alt="هرم خفرع">
+              </div>
+
+              <div class="carousel-item">
+                <img src="./assets/images/Trip_2_3.jpg" class="d-block w-100 rounded shadow-sm" alt="جولة على الجمل">
+              </div>
+
+              <div class="carousel-item">
+                <img src="./assets/images/Trip_2_4.jpg" class="d-block w-100 rounded shadow-sm" alt="هرم منقرع">
+              </div>
+
+              <div class="carousel-item">
+                <img src="./assets/images/Trip_2_5.jpg" class="d-block w-100 rounded shadow-sm" alt="الأهرامات من بعيد">
+              </div>
+
+              <div class="carousel-item">
+                <img src="./assets/images/Trip_2_6.jpg" class="d-block w-100 rounded shadow-sm" alt="الأهرامات في الليل">
+              </div>
+
+              <div class="carousel-item">
+                <img src="./assets/images/Trip_2_7.jpg" class="d-block w-100 rounded shadow-sm" alt="الأهرامات في النهار">
+              </div>
+
+              <div class="carousel-item">
+                <img src="./assets/images/Trip_2_8.jpg" class="d-block w-100 rounded shadow-sm" alt="الأهرامات من الأعلى">
+              </div>
+
+            </div>
+
+            <!-- أزرار التحكم -->
+            <button class="carousel-control-prev" type="button" data-bs-target="#tourCarousel" data-bs-slide="prev">
+              <i class="fa-solid fa-angle-left fa-2x"></i>
+            </button>
+            <button class="carousel-control-next" type="button" data-bs-target="#tourCarousel" data-bs-slide="next">
+              <i class="fa-solid fa-angle-right fa-2x"></i>
+            </button>
+
+            <!-- مؤشرات التنقل -->
+            <div class="carousel-indicators mt-3">
+              <button type="button" data-bs-target="#tourCarousel" data-bs-slide-to="0" class="active" aria-current="true" aria-label="الشريحة 1"></button>
+              <button type="button" data-bs-target="#tourCarousel" data-bs-slide-to="1" aria-label="الشريحة 2"></button>
+              <button type="button" data-bs-target="#tourCarousel" data-bs-slide-to="2" aria-label="الشريحة 3"></button>
+              <button type="button" data-bs-target="#tourCarousel" data-bs-slide-to="3" aria-label="الشريحة 4"></button>
+              <button type="button" data-bs-target="#tourCarousel" data-bs-slide-to="4" aria-label="الشريحة 5"></button>
+              <button type="button" data-bs-target="#tourCarousel" data-bs-slide-to="5" aria-label="الشريحة 6"></button>
+              <button type="button" data-bs-target="#tourCarousel" data-bs-slide-to="6" aria-label="الشريحة 7"></button>
+              <button type="button" data-bs-target="#tourCarousel" data-bs-slide-to="7" aria-label="الشريحة 8"></button>
+
+            </div>
+
+          </div>
         </div>
-
-        <div class="carousel-item">
-          <img src="./assets/images/Trip_2_2.jpg" class="d-block w-100 rounded shadow-sm" alt="هرم خفرع">
+    </div>
+    <div class="col-md-6">
+        <!-- القسم التعريفي -->
+      <section class="intro-section text-white text-center py-5">
+        <div class="container">
+          <p class="lead">
+            تتصف أهرامات مصر الثلاثة بأنها أحد أهم عجائب الدنيا السبعة في جمهورية مصر تقع على هضبة الجيزة في محافظة الجيزة،
+            أيضًا تقع على الضفة الغربية لنهر النيل، وهي تشمل ثلاثة أهرامات وهم خوفو، خفرع، منقرع، والتي بنيت قبل حوالي
+            25 قرنًا قبل الميلاد. وهي مقابر ملكية كل منها يحمل اسم الملك الذي بناه والذي دفن فيه.
+          </p>
+          <p>
+            أفضل الأنشطة التي يمكنكم القيام بها في هذه الرحلة: يمكنكم الاستمتاع بجولة على ظهر الجمل، إذ تستطيعوا استئجار جمل
+            والقيام بجولة حول هذه الأهرامات لتروا ضخامتها وعظمة بناء هذه الأهرامات قبل آلاف السنين، وتستطيعوا التقاط أجمل الصور التذكارية هناك.
+          </p>
         </div>
-
-        <div class="carousel-item">
-          <img src="./assets/images/Trip_2_3.jpg" class="d-block w-100 rounded shadow-sm" alt="جولة على الجمل">
+      </section>
+        <!-- قسم الحجز -->
+      <section class="booking-section py-5">
+        <div class="container">
+          <h2 class="text-center mb-4">احجز رحلتك الآن</h2>
+          <form>
+            <div class="mb-3">
+              <label for="name" class="form-label">الاسم الكامل</label>
+              <input type="text" class="form-control" id="name" required>
+            </div>
+            <div class="mb-3">
+              <label for="email" class="form-label">البريد الإلكتروني</label>
+              <input type="email" class="form-control" id="email" required>
+            </div>
+            <div class="mb-3">
+              <label for="phone" class="form-label">رقم الهاتف</label>
+              <input type="tel" class="form-control" id="phone" required>
+            </div>
+          </form>
         </div>
-
-        <div class="carousel-item">
-          <img src="./assets/images/Trip_2_4.jpg" class="d-block w-100 rounded shadow-sm" alt="هرم منقرع">
+        <div class="text-center">
+          <button type="submit" class="btn btn-success">احجز الآن</button>
         </div>
-
-        <div class="carousel-item">
-          <img src="./assets/images/Trip_2_5.jpg" class="d-block w-100 rounded shadow-sm" alt="الأهرامات من بعيد">
-        </div>
-
-        <div class="carousel-item">
-          <img src="./assets/images/Trip_2_6.jpg" class="d-block w-100 rounded shadow-sm" alt="الأهرامات في الليل">
-        </div>
-
-        <div class="carousel-item">
-          <img src="./assets/images/Trip_2_7.jpg" class="d-block w-100 rounded shadow-sm" alt="الأهرامات في النهار">
-        </div>
-
-        <div class="carousel-item">
-          <img src="./assets/images/Trip_2_8.jpg" class="d-block w-100 rounded shadow-sm" alt="الأهرامات من الأعلى">
-        </div>
-
-      </div>
-
-      <!-- أزرار التحكم -->
-      <button class="carousel-control-prev" type="button" data-bs-target="#tourCarousel" data-bs-slide="prev">
-        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-        <span class="visually-hidden">السابق</span>
-      </button>
-      <button class="carousel-control-next" type="button" data-bs-target="#tourCarousel" data-bs-slide="next">
-        <span class="carousel-control-next-icon" aria-hidden="true"></span>
-        <span class="visually-hidden">التالي</span>
-      </button>
-
-      <!-- مؤشرات التنقل -->
-      <div class="carousel-indicators mt-3">
-        <button type="button" data-bs-target="#tourCarousel" data-bs-slide-to="0" class="active" aria-current="true" aria-label="الشريحة 1"></button>
-        <button type="button" data-bs-target="#tourCarousel" data-bs-slide-to="1" aria-label="الشريحة 2"></button>
-        <button type="button" data-bs-target="#tourCarousel" data-bs-slide-to="2" aria-label="الشريحة 3"></button>
-        <button type="button" data-bs-target="#tourCarousel" data-bs-slide-to="3" aria-label="الشريحة 4"></button>
-        <button type="button" data-bs-target="#tourCarousel" data-bs-slide-to="4" aria-label="الشريحة 5"></button>
-        <button type="button" data-bs-target="#tourCarousel" data-bs-slide-to="5" aria-label="الشريحة 6"></button>
-        <button type="button" data-bs-target="#tourCarousel" data-bs-slide-to="6" aria-label="الشريحة 7"></button>
-        <button type="button" data-bs-target="#tourCarousel" data-bs-slide-to="7" aria-label="الشريحة 8"></button>
-
-      </div>
-
+      </section>
     </div>
   </div>
 </section>
-  <!-- القسم التعريفي -->
-  <section class="intro-section text-white text-center py-5">
-    <div class="container">
-      <p class="lead">
-        تتصف أهرامات مصر الثلاثة بأنها أحد أهم عجائب الدنيا السبعة في جمهورية مصر تقع على هضبة الجيزة في محافظة الجيزة،
-        أيضًا تقع على الضفة الغربية لنهر النيل، وهي تشمل ثلاثة أهرامات وهم خوفو، خفرع، منقرع، والتي بنيت قبل حوالي
-        25 قرنًا قبل الميلاد. وهي مقابر ملكية كل منها يحمل اسم الملك الذي بناه والذي دفن فيه.
-      </p>
-      <p>
-        أفضل الأنشطة التي يمكنكم القيام بها في هذه الرحلة: يمكنكم الاستمتاع بجولة على ظهر الجمل، إذ تستطيعوا استئجار جمل
-        والقيام بجولة حول هذه الأهرامات لتروا ضخامتها وعظمة بناء هذه الأهرامات قبل آلاف السنين، وتستطيعوا التقاط أجمل الصور التذكارية هناك.
-      </p>
-    </div>
-  </section>
-  <!-- قسم الحجز -->
-  <section class="booking-section py-5">
-    <div class="container">
-      <h2 class="text-center mb-4">احجز رحلتك الآن</h2>
-      <form>
-        <div class="mb-3">
-          <label for="name" class="form-label">الاسم الكامل</label>
-          <input type="text" class="form-control" id="name" required>
-        </div>
-        <div class="mb-3">
-          <label for="email" class="form-label">البريد الإلكتروني</label>
-          <input type="email" class="form-control" id="email" required>
-        </div>
-        <div class="mb-3">
-          <label for="phone" class="form-label">رقم الهاتف</label>
-          <input type="tel" class="form-control" id="phone" required>
-        </div>
-      </form>
-    </div>
-    <div class="text-center">
-      <button type="submit" class="btn btn-success">احجز الآن</button>
-    </div>
-  </section>
   <footer class="bg-dark text-white text-center py-4 mt-5">
     <div class="container">
       <div class="mb-2">

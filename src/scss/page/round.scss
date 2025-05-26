@@ -1,33 +1,10 @@
-body.round {
+@use '../base/variables' as *;
 
 $tour-egypt-bg: #4a3f35;
 $tour-egypt-text: #fff;
-background-color: $tour-egypt-bg;
+$icon-yellow: rgb(229, 255, 0);
+$secondary-color: #1e1e1e;
 
-  .intro-section {
-    color: $tour-egypt-text;
-  }
-
-  .gallery-section {
-    background-color: $tour-egypt-bg;
-
-    img {
-      transition: transform 0.3s ease;
-      &:hover {
-        transform: scale(1.05);
-      }
-    }
-  }
-  .booking-section {
-    color: $tour-egypt-text;
-
-    .booking-form {
-      input,
-      select,
-      textarea {
-        color: $tour-egypt-text;
-        border: 1px solid $tour-egypt-text;
-      }
-    }
-  }
+body.round {
+  @include tour-style($tour-egypt-bg, $tour-egypt-text, $icon-yellow, $secondary-color);
 }

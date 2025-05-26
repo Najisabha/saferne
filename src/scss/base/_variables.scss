@@ -1,2 +1,54 @@
-$primary-color: #007bff;
-$secondary-color: #6c757d;
+$primary-color: #208cff;
+$secondary-color: #ffffff;
+
+@mixin tour-style($bg-color, $text-color, $icon-color, $secondary-color) {
+  width: fit-content;
+  background-color: $bg-color;
+
+  .intro-section {
+    color: $text-color;
+  }
+
+  .gallery-section {
+    background-color: $bg-color;
+
+    img {
+      transition: transform 0.3s ease;
+      &:hover {
+        transform: scale(1.05);
+      }
+    }
+  }
+
+  .booking-section {
+    color: $text-color;
+
+    .booking-form {
+      input,
+      select,
+      textarea {
+        color: $text-color;
+        border: 1px solid $text-color;
+      }
+    }
+  }
+
+  .slide {
+    i {
+      background-color: $icon-color;
+      color: $secondary-color;
+      padding: 10px;
+      margin: 10px;
+      font-size: 20px;
+      box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+      transition: all 0.3s ease;
+      border-radius: 10%;
+
+      &:hover {
+        background-color: $icon-color;
+        color: $secondary-color;
+        box-shadow: 0 0 20px rgba(0, 0, 0, 0.5);
+      }
+    }
+  }
+}

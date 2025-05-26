@@ -1,19 +1,28 @@
-body.index {
-    .list-index {
-        ul {
-             li{
-                    margin-top: 10px;
-                    margin-bottom: 10px;
-             } 
+@use '../base/variables' as *;
+@import url('https://fonts.googleapis.com/css2?family=Cairo:wght@300;400;600&display=swap');
 
-        }
+body.index {
+     color: $secondary-color;
+  font-family: 'Cairo', sans-serif;
+  line-height: 1.8;
+
+    .list-index {
+    color: $secondary-color;
+    ul {
+            li{
+                margin-top: 10px;
+                margin-bottom: 10px;
+            } 
+
+    }
     }
     .contact-us {
+        color: $secondary-color;
         margin-top: 10px;
         margin-bottom: 10px;
-        color: #fff;
+        color: $secondary-color;
         a {
-            color: #fff;
+            color: $secondary-color;
             text-decoration: none;
             font-size: 20px;
             font-weight: 600;
@@ -24,8 +33,31 @@ body.index {
         }
         i {
             margin-right: 30px;
-            transform: scale(2);
-            margin-bottom: 10px;
+            margin-left: 10px;
+            transform: scale(1.2);
+        }
+    }
+    #Carousel {
+        color: $secondary-color;
+        i {
+            background-color: rgb(229, 255, 0);
+            color: $secondary-color;
+            padding: 10px;
+            margin: 10px;
+            font-size: 20px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+            transition: all 0.3s ease;
+            &:hover {
+                background-color: rgb(229, 255, 0);
+                color: $secondary-color;
+                box-shadow: 0 0 20px rgba(0, 0, 0, 0.5);
+            }
+            border-radius: 10%;
+        }
+        img {
+            border-radius: 20px;
+            box-shadow: 0 5px 15px rgba(0, 0, 0, 0.2);
+
         }
     }
 }
