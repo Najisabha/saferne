@@ -27,7 +27,7 @@ eval("__webpack_require__.r(__webpack_exports__);\n/* harmony export */ __webpac
 /***/ ((module, __unused_webpack_exports, __webpack_require__) => {
 
 "use strict";
-eval("module.exports = __webpack_require__.p + \"assets/fa-brands-400.ttf\";\n\n//# sourceURL=webpack://safarni-gallery/./node_modules/@fortawesome/fontawesome-free/webfonts/fa-brands-400.ttf?");
+eval("module.exports = __webpack_require__.p + \"assets/fonts/fa-brands-400.ttf\";\n\n//# sourceURL=webpack://safarni-gallery/./node_modules/@fortawesome/fontawesome-free/webfonts/fa-brands-400.ttf?");
 
 /***/ }),
 
@@ -38,7 +38,7 @@ eval("module.exports = __webpack_require__.p + \"assets/fa-brands-400.ttf\";\n\n
 /***/ ((module, __unused_webpack_exports, __webpack_require__) => {
 
 "use strict";
-eval("module.exports = __webpack_require__.p + \"assets/fa-brands-400.woff2\";\n\n//# sourceURL=webpack://safarni-gallery/./node_modules/@fortawesome/fontawesome-free/webfonts/fa-brands-400.woff2?");
+eval("module.exports = __webpack_require__.p + \"assets/fonts/fa-brands-400.woff2\";\n\n//# sourceURL=webpack://safarni-gallery/./node_modules/@fortawesome/fontawesome-free/webfonts/fa-brands-400.woff2?");
 
 /***/ }),
 
@@ -49,7 +49,7 @@ eval("module.exports = __webpack_require__.p + \"assets/fa-brands-400.woff2\";\n
 /***/ ((module, __unused_webpack_exports, __webpack_require__) => {
 
 "use strict";
-eval("module.exports = __webpack_require__.p + \"assets/fa-regular-400.ttf\";\n\n//# sourceURL=webpack://safarni-gallery/./node_modules/@fortawesome/fontawesome-free/webfonts/fa-regular-400.ttf?");
+eval("module.exports = __webpack_require__.p + \"assets/fonts/fa-regular-400.ttf\";\n\n//# sourceURL=webpack://safarni-gallery/./node_modules/@fortawesome/fontawesome-free/webfonts/fa-regular-400.ttf?");
 
 /***/ }),
 
@@ -60,7 +60,7 @@ eval("module.exports = __webpack_require__.p + \"assets/fa-regular-400.ttf\";\n\
 /***/ ((module, __unused_webpack_exports, __webpack_require__) => {
 
 "use strict";
-eval("module.exports = __webpack_require__.p + \"assets/fa-regular-400.woff2\";\n\n//# sourceURL=webpack://safarni-gallery/./node_modules/@fortawesome/fontawesome-free/webfonts/fa-regular-400.woff2?");
+eval("module.exports = __webpack_require__.p + \"assets/fonts/fa-regular-400.woff2\";\n\n//# sourceURL=webpack://safarni-gallery/./node_modules/@fortawesome/fontawesome-free/webfonts/fa-regular-400.woff2?");
 
 /***/ }),
 
@@ -71,7 +71,7 @@ eval("module.exports = __webpack_require__.p + \"assets/fa-regular-400.woff2\";\
 /***/ ((module, __unused_webpack_exports, __webpack_require__) => {
 
 "use strict";
-eval("module.exports = __webpack_require__.p + \"assets/fa-solid-900.ttf\";\n\n//# sourceURL=webpack://safarni-gallery/./node_modules/@fortawesome/fontawesome-free/webfonts/fa-solid-900.ttf?");
+eval("module.exports = __webpack_require__.p + \"assets/fonts/fa-solid-900.ttf\";\n\n//# sourceURL=webpack://safarni-gallery/./node_modules/@fortawesome/fontawesome-free/webfonts/fa-solid-900.ttf?");
 
 /***/ }),
 
@@ -82,7 +82,7 @@ eval("module.exports = __webpack_require__.p + \"assets/fa-solid-900.ttf\";\n\n/
 /***/ ((module, __unused_webpack_exports, __webpack_require__) => {
 
 "use strict";
-eval("module.exports = __webpack_require__.p + \"assets/fa-solid-900.woff2\";\n\n//# sourceURL=webpack://safarni-gallery/./node_modules/@fortawesome/fontawesome-free/webfonts/fa-solid-900.woff2?");
+eval("module.exports = __webpack_require__.p + \"assets/fonts/fa-solid-900.woff2\";\n\n//# sourceURL=webpack://safarni-gallery/./node_modules/@fortawesome/fontawesome-free/webfonts/fa-solid-900.woff2?");
 
 /***/ }),
 
@@ -93,7 +93,7 @@ eval("module.exports = __webpack_require__.p + \"assets/fa-solid-900.woff2\";\n\
 /***/ ((module, __unused_webpack_exports, __webpack_require__) => {
 
 "use strict";
-eval("module.exports = __webpack_require__.p + \"assets/fa-v4compatibility.ttf\";\n\n//# sourceURL=webpack://safarni-gallery/./node_modules/@fortawesome/fontawesome-free/webfonts/fa-v4compatibility.ttf?");
+eval("module.exports = __webpack_require__.p + \"assets/fonts/fa-v4compatibility.ttf\";\n\n//# sourceURL=webpack://safarni-gallery/./node_modules/@fortawesome/fontawesome-free/webfonts/fa-v4compatibility.ttf?");
 
 /***/ }),
 
@@ -104,7 +104,7 @@ eval("module.exports = __webpack_require__.p + \"assets/fa-v4compatibility.ttf\"
 /***/ ((module, __unused_webpack_exports, __webpack_require__) => {
 
 "use strict";
-eval("module.exports = __webpack_require__.p + \"assets/fa-v4compatibility.woff2\";\n\n//# sourceURL=webpack://safarni-gallery/./node_modules/@fortawesome/fontawesome-free/webfonts/fa-v4compatibility.woff2?");
+eval("module.exports = __webpack_require__.p + \"assets/fonts/fa-v4compatibility.woff2\";\n\n//# sourceURL=webpack://safarni-gallery/./node_modules/@fortawesome/fontawesome-free/webfonts/fa-v4compatibility.woff2?");
 
 /***/ }),
 
@@ -797,7 +797,7 @@ eval("__webpack_require__.r(__webpack_exports__);\n/* harmony export */ __webpac
 /***/ ((module, __webpack_exports__, __webpack_require__) => {
 
 "use strict";
-eval("__webpack_require__.r(__webpack_exports__);\n/* harmony export */ __webpack_require__.d(__webpack_exports__, {\n/* harmony export */   \"default\": () => (__WEBPACK_DEFAULT_EXPORT__)\n/* harmony export */ });\n/* harmony import */ var _node_modules_css_loader_dist_runtime_noSourceMaps_js__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ../../node_modules/css-loader/dist/runtime/noSourceMaps.js */ \"./node_modules/css-loader/dist/runtime/noSourceMaps.js\");\n/* harmony import */ var _node_modules_css_loader_dist_runtime_noSourceMaps_js__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(_node_modules_css_loader_dist_runtime_noSourceMaps_js__WEBPACK_IMPORTED_MODULE_0__);\n/* harmony import */ var _node_modules_css_loader_dist_runtime_api_js__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ../../node_modules/css-loader/dist/runtime/api.js */ \"./node_modules/css-loader/dist/runtime/api.js\");\n/* harmony import */ var _node_modules_css_loader_dist_runtime_api_js__WEBPACK_IMPORTED_MODULE_1___default = /*#__PURE__*/__webpack_require__.n(_node_modules_css_loader_dist_runtime_api_js__WEBPACK_IMPORTED_MODULE_1__);\n// Imports\n\n\nvar ___CSS_LOADER_EXPORT___ = _node_modules_css_loader_dist_runtime_api_js__WEBPACK_IMPORTED_MODULE_1___default()((_node_modules_css_loader_dist_runtime_noSourceMaps_js__WEBPACK_IMPORTED_MODULE_0___default()));\n// Module\n___CSS_LOADER_EXPORT___.push([module.id, `body.create_account .card-form {\n  width: 100%;\n  max-width: 500px;\n  background-color: #f8f9fa;\n}\n\nbody.index .list-index ul li {\n  margin-top: 10px;\n  margin-bottom: 10px;\n}\nbody.index .contact-us {\n  margin-top: 10px;\n  margin-bottom: 10px;\n  color: #fff;\n}\nbody.index .contact-us a {\n  color: #fff;\n  text-decoration: none;\n  font-size: 20px;\n  font-weight: 600;\n}\nbody.index .contact-us a:hover {\n  color: #00b7ff;\n  text-decoration: underline;\n}\nbody.index .contact-us i {\n  margin-right: 30px;\n  transform: scale(2);\n  margin-bottom: 10px;\n}\n\nbody.Login .card-form {\n  width: 100%;\n  max-width: 500px;\n  background-color: #f8f9fa;\n}\n\nbody.round {\n  background-color: #4a3f35;\n}\nbody.round .intro-section {\n  color: #fff;\n}\nbody.round .gallery-section {\n  background-color: #4a3f35;\n}\nbody.round .gallery-section img {\n  transition: transform 0.3s ease;\n}\nbody.round .gallery-section img:hover {\n  transform: scale(1.05);\n}\nbody.round .booking-section {\n  color: #fff;\n}\nbody.round .booking-section .booking-form input,\nbody.round .booking-section .booking-form select,\nbody.round .booking-section .booking-form textarea {\n  color: #fff;\n  border: 1px solid #fff;\n}\n\nbody.round2 {\n  background-color: #003496;\n}\nbody.round2 .intro-section {\n  color: #fff;\n}\nbody.round2 .gallery-section {\n  background-color: #003496;\n}\nbody.round2 .gallery-section img {\n  transition: transform 0.3s ease;\n}\nbody.round2 .gallery-section img:hover {\n  transform: scale(1.05);\n}\nbody.round2 .booking-section {\n  color: #fff;\n}\nbody.round2 .booking-section .booking-form input,\nbody.round2 .booking-section .booking-form select,\nbody.round2 .booking-section .booking-form textarea {\n  color: #fff;\n  border: 1px solid #fff;\n}\n\nbody {\n  background-color: #007bff;\n  color: white;\n}\n\nnav {\n  background: #00b7ff;\n}\nnav li {\n  font-family: \"Tajawal\", sans-serif;\n  font-weight: 200;\n  font-style: normal;\n}\nnav img {\n  width: 70%;\n  height: auto;\n}\n\n.btn {\n  margin: 10px;\n}\n\nfooter {\n  background: #00b7ff;\n  color: #fff;\n  padding: 20px 0;\n  text-align: center;\n  font-size: 20px;\n  font-weight: 600;\n}\nfooter a {\n  color: #fff;\n  text-decoration: none;\n}\nfooter a:hover {\n  color: #00b7ff;\n  text-decoration: underline;\n}\nfooter i {\n  margin-right: 20px;\n  margin-left: 20px;\n  margin-bottom: 30px;\n}`, \"\"]);\n// Exports\n/* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = (___CSS_LOADER_EXPORT___);\n\n\n//# sourceURL=webpack://safarni-gallery/./src/scss/main.scss?./node_modules/css-loader/dist/cjs.js!./node_modules/sass-loader/dist/cjs.js");
+eval("__webpack_require__.r(__webpack_exports__);\n/* harmony export */ __webpack_require__.d(__webpack_exports__, {\n/* harmony export */   \"default\": () => (__WEBPACK_DEFAULT_EXPORT__)\n/* harmony export */ });\n/* harmony import */ var _node_modules_css_loader_dist_runtime_noSourceMaps_js__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ../../node_modules/css-loader/dist/runtime/noSourceMaps.js */ \"./node_modules/css-loader/dist/runtime/noSourceMaps.js\");\n/* harmony import */ var _node_modules_css_loader_dist_runtime_noSourceMaps_js__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(_node_modules_css_loader_dist_runtime_noSourceMaps_js__WEBPACK_IMPORTED_MODULE_0__);\n/* harmony import */ var _node_modules_css_loader_dist_runtime_api_js__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ../../node_modules/css-loader/dist/runtime/api.js */ \"./node_modules/css-loader/dist/runtime/api.js\");\n/* harmony import */ var _node_modules_css_loader_dist_runtime_api_js__WEBPACK_IMPORTED_MODULE_1___default = /*#__PURE__*/__webpack_require__.n(_node_modules_css_loader_dist_runtime_api_js__WEBPACK_IMPORTED_MODULE_1__);\n// Imports\n\n\nvar ___CSS_LOADER_EXPORT___ = _node_modules_css_loader_dist_runtime_api_js__WEBPACK_IMPORTED_MODULE_1___default()((_node_modules_css_loader_dist_runtime_noSourceMaps_js__WEBPACK_IMPORTED_MODULE_0___default()));\n___CSS_LOADER_EXPORT___.push([module.id, \"@import url(https://fonts.googleapis.com/css2?family=Cairo:wght@300;400;600&display=swap);\"]);\n// Module\n___CSS_LOADER_EXPORT___.push([module.id, `body.create_account .card-form {\n  width: 100%;\n  max-width: 500px;\n  background-color: #f8f9fa;\n}\n\nbody.index {\n  color: #ffffff;\n  font-family: \"Cairo\", sans-serif;\n  line-height: 1.8;\n}\nbody.index .list-index {\n  color: #ffffff;\n}\nbody.index .list-index ul li {\n  margin-top: 10px;\n  margin-bottom: 10px;\n}\nbody.index .contact-us {\n  color: #ffffff;\n  margin-top: 10px;\n  margin-bottom: 10px;\n  color: #ffffff;\n}\nbody.index .contact-us a {\n  color: #ffffff;\n  text-decoration: none;\n  font-size: 20px;\n  font-weight: 600;\n}\nbody.index .contact-us a:hover {\n  color: #00b7ff;\n  text-decoration: underline;\n}\nbody.index .contact-us i {\n  margin-right: 30px;\n  margin-left: 10px;\n  transform: scale(1.2);\n}\nbody.index #Carousel {\n  color: #ffffff;\n}\nbody.index #Carousel i {\n  background-color: rgb(229, 255, 0);\n  color: #ffffff;\n  padding: 10px;\n  margin: 10px;\n  font-size: 20px;\n  box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);\n  transition: all 0.3s ease;\n  border-radius: 10%;\n}\nbody.index #Carousel i:hover {\n  background-color: rgb(229, 255, 0);\n  color: #ffffff;\n  box-shadow: 0 0 20px rgba(0, 0, 0, 0.5);\n}\nbody.index #Carousel img {\n  border-radius: 20px;\n  box-shadow: 0 5px 15px rgba(0, 0, 0, 0.2);\n}\n\nbody.Login .card-form {\n  width: 100%;\n  max-width: 500px;\n  background-color: #f8f9fa;\n}\n\nbody.round {\n  width: fit-content;\n  background-color: #4a3f35;\n}\nbody.round .intro-section {\n  color: #fff;\n}\nbody.round .gallery-section {\n  background-color: #4a3f35;\n}\nbody.round .gallery-section img {\n  transition: transform 0.3s ease;\n}\nbody.round .gallery-section img:hover {\n  transform: scale(1.05);\n}\nbody.round .booking-section {\n  color: #fff;\n}\nbody.round .booking-section .booking-form input,\nbody.round .booking-section .booking-form select,\nbody.round .booking-section .booking-form textarea {\n  color: #fff;\n  border: 1px solid #fff;\n}\nbody.round .slide i {\n  background-color: rgb(229, 255, 0);\n  color: #1e1e1e;\n  padding: 10px;\n  margin: 10px;\n  font-size: 20px;\n  box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);\n  transition: all 0.3s ease;\n  border-radius: 10%;\n}\nbody.round .slide i:hover {\n  background-color: rgb(229, 255, 0);\n  color: #1e1e1e;\n  box-shadow: 0 0 20px rgba(0, 0, 0, 0.5);\n}\n\nbody.round2 {\n  width: fit-content;\n  background-color: #4a7aff;\n}\nbody.round2 .intro-section {\n  color: #fff;\n}\nbody.round2 .gallery-section {\n  background-color: #4a7aff;\n}\nbody.round2 .gallery-section img {\n  transition: transform 0.3s ease;\n}\nbody.round2 .gallery-section img:hover {\n  transform: scale(1.05);\n}\nbody.round2 .booking-section {\n  color: #fff;\n}\nbody.round2 .booking-section .booking-form input,\nbody.round2 .booking-section .booking-form select,\nbody.round2 .booking-section .booking-form textarea {\n  color: #fff;\n  border: 1px solid #fff;\n}\nbody.round2 .slide i {\n  background-color: rgb(229, 255, 0);\n  color: #1e1e1e;\n  padding: 10px;\n  margin: 10px;\n  font-size: 20px;\n  box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);\n  transition: all 0.3s ease;\n  border-radius: 10%;\n}\nbody.round2 .slide i:hover {\n  background-color: rgb(229, 255, 0);\n  color: #1e1e1e;\n  box-shadow: 0 0 20px rgba(0, 0, 0, 0.5);\n}\n\nbody {\n  background-color: #208cff;\n  color: white;\n}\n\nnav {\n  background: #00b7ff;\n}\nnav li {\n  font-family: \"Tajawal\", sans-serif;\n  font-weight: 200;\n  font-style: normal;\n}\nnav img {\n  width: 70%;\n  height: auto;\n}\n\n.btn {\n  margin: 10px;\n}\n\nfooter {\n  background: #00b7ff;\n  color: #1e1e1e;\n  padding: 20px 0;\n  text-align: center;\n  font-size: 20px;\n  font-weight: 600;\n}\nfooter a {\n  color: #1e1e1e;\n  text-decoration: none;\n}\nfooter a:hover {\n  color: #00b7ff;\n  text-decoration: underline;\n}\nfooter i {\n  margin-right: 20px;\n  margin-left: 20px;\n  margin-bottom: 30px;\n}`, \"\"]);\n// Exports\n/* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = (___CSS_LOADER_EXPORT___);\n\n\n//# sourceURL=webpack://safarni-gallery/./src/scss/main.scss?./node_modules/css-loader/dist/cjs.js!./node_modules/sass-loader/dist/cjs.js");
 
 /***/ }),
 
@@ -1004,7 +1004,7 @@ eval("__webpack_require__.r(__webpack_exports__);\n/* harmony export */ __webpac
   \************************************************/
 /***/ ((module, __unused_webpack_exports, __webpack_require__) => {
 
-eval("/*\n\tMIT License http://www.opensource.org/licenses/mit-license.php\n\tAuthor Tobias Koppers @sokra\n*/\n/* globals __webpack_hash__ */\nif (true) {\n\t/** @type {undefined|string} */\n\tvar lastHash;\n\tvar upToDate = function upToDate() {\n\t\treturn /** @type {string} */ (lastHash).indexOf(__webpack_require__.h()) >= 0;\n\t};\n\tvar log = __webpack_require__(/*! ./log */ \"./node_modules/webpack/hot/log.js\");\n\tvar check = function check() {\n\t\tmodule.hot\n\t\t\t.check(true)\n\t\t\t.then(function (updatedModules) {\n\t\t\t\tif (!updatedModules) {\n\t\t\t\t\tlog(\n\t\t\t\t\t\t\"warning\",\n\t\t\t\t\t\t\"[HMR] Cannot find update. \" +\n\t\t\t\t\t\t\t(typeof window !== \"undefined\"\n\t\t\t\t\t\t\t\t? \"Need to do a full reload!\"\n\t\t\t\t\t\t\t\t: \"Please reload manually!\")\n\t\t\t\t\t);\n\t\t\t\t\tlog(\n\t\t\t\t\t\t\"warning\",\n\t\t\t\t\t\t\"[HMR] (Probably because of restarting the webpack-dev-server)\"\n\t\t\t\t\t);\n\t\t\t\t\tif (typeof window !== \"undefined\") {\n\t\t\t\t\t\twindow.location.reload();\n\t\t\t\t\t}\n\t\t\t\t\treturn;\n\t\t\t\t}\n\n\t\t\t\tif (!upToDate()) {\n\t\t\t\t\tcheck();\n\t\t\t\t}\n\n\t\t\t\t__webpack_require__(/*! ./log-apply-result */ \"./node_modules/webpack/hot/log-apply-result.js\")(updatedModules, updatedModules);\n\n\t\t\t\tif (upToDate()) {\n\t\t\t\t\tlog(\"info\", \"[HMR] App is up to date.\");\n\t\t\t\t}\n\t\t\t})\n\t\t\t.catch(function (err) {\n\t\t\t\tvar status = module.hot.status();\n\t\t\t\tif ([\"abort\", \"fail\"].indexOf(status) >= 0) {\n\t\t\t\t\tlog(\n\t\t\t\t\t\t\"warning\",\n\t\t\t\t\t\t\"[HMR] Cannot apply update. \" +\n\t\t\t\t\t\t\t(typeof window !== \"undefined\"\n\t\t\t\t\t\t\t\t? \"Need to do a full reload!\"\n\t\t\t\t\t\t\t\t: \"Please reload manually!\")\n\t\t\t\t\t);\n\t\t\t\t\tlog(\"warning\", \"[HMR] \" + log.formatError(err));\n\t\t\t\t\tif (typeof window !== \"undefined\") {\n\t\t\t\t\t\twindow.location.reload();\n\t\t\t\t\t}\n\t\t\t\t} else {\n\t\t\t\t\tlog(\"warning\", \"[HMR] Update failed: \" + log.formatError(err));\n\t\t\t\t}\n\t\t\t});\n\t};\n\tvar hotEmitter = __webpack_require__(/*! ./emitter */ \"./node_modules/webpack/hot/emitter.js\");\n\thotEmitter.on(\"webpackHotUpdate\", function (currentHash) {\n\t\tlastHash = currentHash;\n\t\tif (!upToDate() && module.hot.status() === \"idle\") {\n\t\t\tlog(\"info\", \"[HMR] Checking for updates on the server...\");\n\t\t\tcheck();\n\t\t}\n\t});\n\tlog(\"info\", \"[HMR] Waiting for update signal from WDS...\");\n} else {}\n\n\n//# sourceURL=webpack://safarni-gallery/./node_modules/webpack/hot/dev-server.js?");
+eval("/*\n\tMIT License http://www.opensource.org/licenses/mit-license.php\n\tAuthor Tobias Koppers @sokra\n*/\n/* globals __webpack_hash__ */\nif (true) {\n\t/** @type {undefined|string} */\n\tvar lastHash;\n\tvar upToDate = function upToDate() {\n\t\treturn /** @type {string} */ (lastHash).indexOf(__webpack_require__.h()) >= 0;\n\t};\n\tvar log = __webpack_require__(/*! ./log */ \"./node_modules/webpack/hot/log.js\");\n\tvar check = function check() {\n\t\tmodule.hot\n\t\t\t.check(true)\n\t\t\t.then(function (updatedModules) {\n\t\t\t\tif (!updatedModules) {\n\t\t\t\t\tlog(\n\t\t\t\t\t\t\"warning\",\n\t\t\t\t\t\t\"[HMR] Cannot find update. \" +\n\t\t\t\t\t\t\t(typeof window !== \"undefined\"\n\t\t\t\t\t\t\t\t? \"Need to do a full reload!\"\n\t\t\t\t\t\t\t\t: \"Please reload manually!\")\n\t\t\t\t\t);\n\t\t\t\t\tlog(\n\t\t\t\t\t\t\"warning\",\n\t\t\t\t\t\t\"[HMR] (Probably because of restarting the webpack-dev-server)\"\n\t\t\t\t\t);\n\t\t\t\t\tif (typeof window !== \"undefined\") {\n\t\t\t\t\t\twindow.location.reload();\n\t\t\t\t\t}\n\t\t\t\t\treturn;\n\t\t\t\t}\n\n\t\t\t\tif (!upToDate()) {\n\t\t\t\t\tcheck();\n\t\t\t\t}\n\n\t\t\t\t__webpack_require__(/*! ./log-apply-result */ \"./node_modules/webpack/hot/log-apply-result.js\")(updatedModules, updatedModules);\n\n\t\t\t\tif (upToDate()) {\n\t\t\t\t\tlog(\"info\", \"[HMR] App is up to date.\");\n\t\t\t\t}\n\t\t\t})\n\t\t\t.catch(function (err) {\n\t\t\t\tvar status = module.hot.status();\n\t\t\t\tif ([\"abort\", \"fail\"].indexOf(status) >= 0) {\n\t\t\t\t\tlog(\n\t\t\t\t\t\t\"warning\",\n\t\t\t\t\t\t\"[HMR] Cannot apply update. \" +\n\t\t\t\t\t\t\t(typeof window !== \"undefined\"\n\t\t\t\t\t\t\t\t? \"Need to do a full reload!\"\n\t\t\t\t\t\t\t\t: \"Please reload manually!\")\n\t\t\t\t\t);\n\t\t\t\t\tlog(\"warning\", \"[HMR] \" + log.formatError(err));\n\t\t\t\t\tif (typeof window !== \"undefined\") {\n\t\t\t\t\t\twindow.location.reload();\n\t\t\t\t\t}\n\t\t\t\t} else {\n\t\t\t\t\tlog(\"warning\", \"[HMR] Update failed: \" + log.formatError(err));\n\t\t\t\t}\n\t\t\t});\n\t};\n\tvar hotEmitter = __webpack_require__(/*! ./emitter */ \"./node_modules/webpack/hot/emitter.js\");\n\thotEmitter.on(\"webpackHotUpdate\", function (currentHash) {\n\t\tlastHash = currentHash;\n\t\tif (!upToDate() && module.hot.status() === \"idle\") {\n\t\t\tlog(\"info\", \"[HMR] Checking for updates on the server...\");\n\t\t\tcheck();\n\t\t}\n\t});\n\tlog(\"info\", \"[HMR] Waiting for update signal from WDS...\");\n} else // removed by dead control flow\n{}\n\n\n//# sourceURL=webpack://safarni-gallery/./node_modules/webpack/hot/dev-server.js?");
 
 /***/ }),
 
@@ -1348,7 +1348,7 @@ eval("module.exports = \"data:image/svg+xml,%3csvg xmlns=%27http://www.w3.org/20
 /******/ 	
 /******/ 	/* webpack/runtime/getFullHash */
 /******/ 	(() => {
-/******/ 		__webpack_require__.h = () => ("5b76f804c44f24c51df0")
+/******/ 		__webpack_require__.h = () => ("688c89b3bb8be514d397")
 /******/ 	})();
 /******/ 	
 /******/ 	/* webpack/runtime/global */
@@ -1836,7 +1836,7 @@ eval("module.exports = \"data:image/svg+xml,%3csvg xmlns=%27http://www.w3.org/20
 /******/ 		// or pass an empty string ("") and set the __webpack_public_path__ variable from your code to use your own logic.
 /******/ 		if (!scriptUrl) throw new Error("Automatic publicPath is not supported in this browser");
 /******/ 		scriptUrl = scriptUrl.replace(/^blob:/, "").replace(/#.*$/, "").replace(/\?.*$/, "").replace(/\/[^\/]+$/, "/");
-/******/ 		__webpack_require__.p = scriptUrl;
+/******/ 		__webpack_require__.p = scriptUrl + "../../";
 /******/ 	})();
 /******/ 	
 /******/ 	/* webpack/runtime/jsonp chunk loading */
