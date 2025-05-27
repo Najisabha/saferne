@@ -14,8 +14,17 @@ module.exports = {
 
   output: {
     path: path.resolve(__dirname, 'dist'),
-    filename: 'index.js',
-    assetModuleFilename: 'assets/[name][ext]', // الصور تحفظ هنا
+    filename: 'assets/js/[name].js', // JS في مجلد assets/js
+    assetModuleFilename: (pathData) => {
+      const ext = path.extname(pathData.filename).toLowerCase();
+      if (['.png', '.jpg', '.jpeg', '.gif', '.svg'].includes(ext)) {
+        return 'assets/images/[name][ext]';
+      }
+      if (['.woff', '.woff2', '.eot', '.ttf', '.otf'].includes(ext)) {
+        return 'assets/fonts/[name][ext]';
+      }
+      return 'assets/misc/[name][ext]'; // أي ملف آخر
+    },
     clean: true,
   },
 
@@ -52,11 +61,15 @@ module.exports = {
       },
       {
         test: /\.(png|jpe?g|gif|svg)$/i,
-        type: 'asset/resource', // ✅ بديل file-loader
+        type: 'asset/resource',
+      },
+      {
+        test: /\.(woff2?|eot|ttf|otf)$/i,
+        type: 'asset/resource',
       },
       {
         test: /\.html$/i,
-        loader: 'html-loader', // ✅ ضروري لتمكين <img src="..."> في HTML
+        loader: 'html-loader',
         options: {
           sources: {
             list: [
@@ -79,7 +92,7 @@ module.exports = {
     new HtmlWebpackPlugin({ filename: 'round2.html', template: './src/round2.html' }),
     new HtmlWebpackPlugin({ filename: 'Login.html', template: './src/Login.html' }),
     new HtmlWebpackPlugin({ filename: 'create_account.html', template: './src/create_account.html' }),
-    ...(!isDevelopment ? [new MiniCssExtractPlugin({ filename: '[name].css' })] : [])
+    ...(!isDevelopment ? [new MiniCssExtractPlugin({ filename: 'assets/css/[name].css' })] : [])
   ],
 
   optimization: {
