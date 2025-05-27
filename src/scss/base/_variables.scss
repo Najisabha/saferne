@@ -1,9 +1,10 @@
-$primary-color: #208cff;
-$secondary-color: #ffffff;
+$primary-color: #ffffff;
+$secondary-color: #000000;
 
 @mixin tour-style($bg-color, $text-color, $icon-color, $secondary-color) {
   width: fit-content;
   background-color: $bg-color;
+  color: $text-color;
 
   .intro-section {
     color: $text-color;
