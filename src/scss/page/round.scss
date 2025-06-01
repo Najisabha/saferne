@@ -1,10 +1,12 @@
 @use '../base/variables' as *;
 
-$tour-egypt-bg: #4a3f35;
-$tour-egypt-text: #fff;
-$icon-yellow: rgb(229, 255, 0);
-$secondary-color: #1e1e1e;
+$tour-egypt-bg: #888888;        
+$tour-egypt-text: #3e2723;      
+$icon-yellow: #ffd600;           
+$secondary-color: #b48a5a;      
+
 
 body.round {
   @include tour-style($tour-egypt-bg, $tour-egypt-text, $icon-yellow, $secondary-color);
+  
 }

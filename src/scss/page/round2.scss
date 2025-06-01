@@ -1,9 +1,9 @@
 @use '../base/variables' as *;
 
-$tour-turky-bg: #8aaaff;
-$tour-turky-text: #000000;
-$icon-yellow: rgb(229, 255, 0);
-$secondary-color: #1e1e1e;
+$tour-turky-bg: #f0f6ff;        
+$tour-turky-text: #183153;       
+$icon-yellow: #ffd600;          
+$secondary-color: #198754;       
 
 body.round2 {
   @include tour-style($tour-turky-bg, $tour-turky-text, $icon-yellow, $secondary-color);

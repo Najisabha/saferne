@@ -11,7 +11,7 @@
 <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css" integrity="sha512-Evv84Mr4kqVGRNSgIGL/F/aIDqQb7xQ2vcrdIwxfjThSH8CSR7PBEakCr51Ck+w+/U6swU2Im1vVX0SVk9ABhg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
 <!---->
 <link rel="icon" href="./assets/images/logo.png" type="image/x-icon">
-<body class="index" id="gallery">
+<body class="index">
   <header>
     <nav class="navbar navbar-expand-lg ">
       <div class="container-fluid">
@@ -25,13 +25,13 @@
               <a class="nav-link active" href="Login.html">تسجيل الدخول </a>
             </li>
             <li class="nav-item btn btn-light">
-              <a class="nav-link " href="#tours"> جولة </a>
+              <a class="nav-link " href="index.html#tours"> جولة </a>
             </li>
             <li class="nav-item btn btn-light">
-              <a class="nav-link " href="#services"> خدماتنا </a>
+              <a class="nav-link " href="index.html#services"> خدماتنا </a>
             </li>
             <li class="nav-item btn btn-light">
-              <a class="nav-link " href="#contact-us"> تواصل معنى </a>
+              <a class="nav-link " href="index.html#contact-us"> تواصل معنى </a>
             </li>
           </ul>
         </div>
@@ -86,34 +86,34 @@
       <h1 class="mb-4">خدماتنا</h1>
       <p>نقدم مجموعة متنوعة من الخدمات السياحية لتلبية احتياجاتكم.</p>
     </div>
-    <div class="col-md-6 me-auto ">
-      <img src="./assets/images/Traveller.svg" class="img-fluid" >
+    <div class="col-md-4 Traveller-img " style="margin: 0 auto;">
+      <img src="./assets/images/Traveller.svg" class="img-fluid w-md-75 mx-auto d-block traveler-image " >
     </div>
-    <div class="col-md-6">
+    <div class="col-lg-6">
         <div class="container">
           <div class="row g-4">
-            <div class="col-12 col-md-6">
+            <div class="col-12 col-lg-6">
               <div class="service-box text-center p-4 border rounded h-100">
                 <i class="fa-solid fa-tower-observation fa-3x"></i>
                 <h5>حجز سكن</h5>
                 <p>نقدم لكم خدمة الحجوزات في أفضل الفنادق والشقق ذات الإطلالة الرائعة والقريبة من جميع الخدمات.</p>
               </div>
             </div>
-            <div class="col-12 col-md-6">
+            <div class="col-12 col-lg-6">
               <div class="service-box text-center p-4 border rounded h-100">
                 <i class="fa-solid fa-car fa-3x"></i>
                 <h5>حجز سيارة</h5>
                 <p>نقدم لكم خدمة حجز السيارات سواءً سيارات الأوتوماتيك أو السيارات العادية.</p>
               </div>
             </div>
-            <div class="col-12 col-md-6">
+            <div class="col-12 col-lg-6">
               <div class="service-box text-center p-4 border rounded h-100">
               <i class="fa-solid fa-play fa-3x"></i> 
               <h5>جولات سياحية</h5>
               <p>جولات سياحية خاصة مع أمهر السائقين وجولات جماعية بأحدث الباصات مع أفضل المرشدين السياحيين.</p>
               </div>
             </div>
-            <div class="col-12 col-md-6">
+            <div class="col-12 col-lg-6 ">
               <div class="service-box text-center p-4 border rounded h-100">
                 <i class="fa-solid fa-plane-departure fa-3x"></i>
                 <h5>الاستقبال من المطار</h5>
@@ -125,34 +125,36 @@
     </div>
   </div>
  </section>
-  <section class="tours py-5" id="tours">
-    <div class="container">
-      <h2 class="text-center mb-5">جولاتنا السياحية</h2>
-      <div class="row g-4">
-        <div class="col-12 col-md-6">
-          <div class="card h-100 text-center">
-            <img src="./assets/images/Trip_1.jpg" class="card-img-top" alt="جولة اسطنبول">
-            <div class="card-body">
-              <h5 class="card-title">جولة اسطنبول</h5>
-              <p class="card-text">السعر: 500 دولار</p>
-              <a href="round2.html" class="btn btn-success">تفاصيل الرحلة</a>
-            </div>
+<section class="tours py-5" id="tours">
+  <div class="container">
+    <h2 class="text-center mb-5">جولاتنا السياحية</h2>
+    <div class="row g-4">
+      <!-- جولة 1 -->
+      <div class="col-12 col-md-6">
+        <div class="card tour-card text-center">
+          <img src="./assets/images/Trip_1.jpg" class="card-img-top" alt="جولة اسطنبول">
+          <div class="card-body">
+            <h5 class="card-title">جولة اسطنبول</h5>
+            <p class="card-text">السعر: 500 دولار</p>
+            <a href="round2.html" class="btn btn-success">تفاصيل الرحلة</a>
           </div>
         </div>
-        <div class="col-12 col-md-6">
-          <div class="card h-100 text-center">
-            <img src="./assets/images/Trip_2.jpg" class="card-img-top" alt="جولة طرابزون">
-            <div class="card-body">
-              <h5 class="card-title">جولة طرابزون</h5>
-              <p class="card-text">السعر: 400 دولار</p>
-              <a href="round.html" class="btn btn-success">تفاصيل الرحلة</a>
-            </div>
+      </div>
+      <!-- جولة 2 -->
+      <div class="col-12 col-md-6">
+        <div class="card tour-card text-center">
+          <img src="./assets/images/Trip_2.jpg" class="card-img-top" alt="جولة طرابزون">
+          <div class="card-body">
+            <h5 class="card-title">جولة طرابزون</h5>
+            <p class="card-text">السعر: 400 دولار</p>
+            <a href="round.html" class="btn btn-success">تفاصيل الرحلة</a>
           </div>
         </div>
       </div>
     </div>
-  </section>
-  <section class="contact-us py-5" id="contact-us">
+  </div>
+</section>
+<section class="contact-us py-5" id="contact-us">
     <div class="container">
       <h2 class="text-center mb-5">تواصل معنا</h2>
       <div class="row g-4">
@@ -173,19 +175,56 @@
         </div>
       </div>
     </div>
-  </section>
-  <footer class="bg-dark text-white text-center py-4 mt-5">
-      <div class="container">
-        <div class="mb-2">
-          <a href="#" class="text-white me-3"><i class="fab fa-facebook fa-lg"></i></a>
-          <a href="#" class="text-white me-3"><i class="fab fa-instagram fa-lg"></i></a>
-          <a href="#" class="text-white me-3"><i class="fab fa-whatsapp fa-lg"></i></a>
-          <a href="#" class="text-white"><i class="fab fa-twitter fa-lg"></i></a>
-        </div>
-        <div>
-          جميع الحقوق محفوظة &copy; شركة سفرني 2025
+</section>
+<footer class="footer-custom bg-dark text-white pt-5 pb-3 mt-5">
+  <div class="container">
+    <div class="row gy-4">
+      <!-- روابط الموقع -->
+      <div class="col-12 col-lg-3 col-md-6">
+        <h5 class="mb-3">روابط سريعة</h5>
+        <ul class="list-unstyled">
+          <li><a href="index.html" class="text-white-50 text-decoration-none">الرئيسية</a></li>
+          <li><a href="#services" class="text-white-50 text-decoration-none">خدماتنا</a></li>
+          <li><a href="#tours" class="text-white-50 text-decoration-none">الجولات السياحية</a></li>
+          <li><a href="#contact-us" class="text-white-50 text-decoration-none">تواصل معنا</a></li>
+          <li><a href="Login.html" class="text-white-50 text-decoration-none">تسجيل الدخول</a></li>
+        </ul>
+      </div>
+      <!-- معلومات التواصل -->
+      <div class="col-12 col-lg-3 col-md-6">
+        <h5 class="mb-3">معلومات التواصل</h5>
+        <ul class="list-unstyled text-white-50">
+          <li class="mb-2"><i class="fa-solid fa-location-dot me-2"></i> شارع الاستقلال، اسطنبول، تركيا</li>
+          <li class="mb-2"><i class="fa-solid fa-phone me-2"></i> <a href="tel:+905551234567" class="text-white-50 text-decoration-none">+90 555 123 45 67</a></li>
+          <li><i class="fa-solid fa-envelope me-2"></i> <a href="mailto:info@safarni.com" class="text-white-50 text-decoration-none">info@safarni.com</a></li>
+        </ul>
+      </div>
+      <!-- مواقع التواصل الاجتماعي -->
+      <div class="col-12 col-lg-3 col-md-6">
+        <h5 class="mb-3">تابعنا</h5>
+        <div class="d-flex gap-3 fs-4">
+          <a href="#" class="text-white-50" aria-label="Facebook"><i class="fab fa-facebook"></i></a>
+          <a href="#" class="text-white-50" aria-label="Instagram"><i class="fab fa-instagram"></i></a>
+          <a href="#" class="text-white-50" aria-label="WhatsApp"><i class="fab fa-whatsapp"></i></a>
+          <a href="#" class="text-white-50" aria-label="Twitter"><i class="fab fa-twitter"></i></a>
         </div>
       </div>
-  </footer>
+      <!-- الخريطة -->
+      <div class="col-12 col-lg-3 col-md-6">
+        <h5 class="mb-3">موقعنا على الخريطة</h5>
+        <div class="footer-map rounded overflow-hidden" style="height:120px;">
+          <iframe 
+            src="https://www.openstreetmap.org/export/embed.html?bbox=28.9784%2C41.0082%2C28.9884%2C41.0182&amp;layer=mapnik"
+            style="width:100%; height:100%; border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade">
+          </iframe>
+        </div>
+      </div>
+    </div>
+    <hr class="border-secondary my-4">
+    <div class="text-center text-white-50 small">
+      جميع الحقوق محفوظة &copy; شركة سفرني 2025
+    </div>
+  </div>
+</footer>
 </body>
 </html>
