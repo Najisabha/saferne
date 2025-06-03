@@ -93,3 +93,66 @@ $secondary-color: #000000;
     }
   }
 }
+@mixin list-group {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+@mixin list-group-item {
+  position: relative;
+  display: block;
+  padding: 0.75rem 1.25rem;
+  margin: 0;
+  background-color: #fff;
+  border: 1px solid #dee2e6;
+  border-bottom: none;
+
+  &:last-child {
+    border-bottom: 1px solid #dee2e6;
+  }
+}
+@mixin shadow-sm {
+  box-shadow: 0 .125rem .25rem rgba(0, 0, 0, 0.075);
+}
+@mixin rounded-3 {
+  border-radius: 0.5rem;
+}
+@mixin bg-white {
+  background-color: #fff;
+}
+.tourist-places {
+  @include list-group;
+  @include shadow-sm;
+  @include rounded-3;
+  @include bg-white;
+
+  li {
+    @include list-group-item;
+  }
+}
+.booking-section {
+  @include bg-white;
+  @include rounded-3;
+  @include shadow-sm;
+
+  .booking-form {
+    display: flex;
+    flex-direction: column;
+    border-radius: 20px;
+    input,
+    select,
+    textarea {
+      margin-bottom: 1rem;
+      padding: 0.5rem;
+      border-radius: 20px;
+      border: 1px solid #ced4da;
+      font-size: 1rem;
+      color: $secondary-color;
+
+      &:focus {
+        border-color: $secondary-color;
+        box-shadow: 0 0 0.25rem rgba(0, 123, 255, 0.25);
+      }
+    }
+  }
+}
