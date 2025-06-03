@@ -9,59 +9,58 @@ body.index {
     .list-index {
     color: $secondary-color;
     ul {
-            li{
-                margin-top: 10px;
-                margin-bottom: 10px;
-            } 
-
+        li{
+            margin-top: 10px;
+            margin-bottom: 10px;
+        } 
     }
     }
     .contact-us {
+    color: $secondary-color;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    color: $secondary-color;
+    a {
         color: $secondary-color;
-        margin-top: 10px;
-        margin-bottom: 10px;
-        color: $secondary-color;
-        a {
-            color: $secondary-color;
-            text-decoration: none;
-            font-size: 20px;
-            font-weight: 600;
-            &:hover {
-                color: #00b7ff;
-                text-decoration: underline;
-            }
+        text-decoration: none;
+        font-size: 20px;
+        font-weight: 600;
+        &:hover {
+            color: #00b7ff;
+            text-decoration: underline;
         }
-        i {
-            margin-right: 30px;
-            margin-left: 10px;
-            transform: scale(1.2);
-        }
+    }
+    i {
+        margin-right: 30px;
+        margin-left: 10px;
+        transform: scale(1.2);
+    }
     }
     #Carousel {
+    color: $secondary-color;
+    i {
+        background-color: rgb(229, 255, 0);
         color: $secondary-color;
-        i {
+        padding: 10px 13px;
+        margin: 10px;
+        font-size: 20px;
+        box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+        transition: all 0.3s ease;
+        &:hover {
             background-color: rgb(229, 255, 0);
             color: $secondary-color;
-            padding: 10px;
-            margin: 10px;
-            font-size: 20px;
-            box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
-            transition: all 0.3s ease;
-            &:hover {
-                background-color: rgb(229, 255, 0);
-                color: $secondary-color;
-                box-shadow: 0 0 20px rgba(0, 0, 0, 0.5);
-            }
-            border-radius: 10%;
+            box-shadow: 0 0 20px rgba(0, 0, 0, 0.5);
         }
-        img {
-            border-radius: 20px;
-            box-shadow: 0 5px 15px rgba(0, 0, 0, 0.2);
+        border-radius: 50%;
+    }
+    img {
+        border-radius: 20px;
+        box-shadow: 0 5px 15px rgba(0, 0, 0, 0.2);
 
-        }
+    }
     }
     .tour-card {
-        @include tour-card;
+    @include tour-card;
     }
     .Traveller-img {
     position: relative;
@@ -85,8 +84,8 @@ body.index {
     img {
         position: static; 
         transform: none; 
-        width: 200%;
-        max-width: 650px;
+        width: 100%;
+        max-width: 350px;
         height: auto;
         display: block;
         margin: 0 auto;

@@ -8,5 +8,10 @@ $secondary-color: #b48a5a;
 
 body.round {
   @include tour-style($tour-egypt-bg, $tour-egypt-text, $icon-yellow, $secondary-color);
+    ul {
+      li {
+          color: $tour-egypt-text;
+      }
+  }  
   
 }
