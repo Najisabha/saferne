@@ -6,6 +6,8 @@ $icon-yellow: #ffd600;
 $secondary-color: #198754;       
 
 body.round2 {
+  margin: 0;
+  padding: 0;
   @include tour-style($tour-turky-bg, $tour-turky-text, $icon-yellow, $secondary-color);
   ul {
     li {
