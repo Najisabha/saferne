@@ -26,6 +26,7 @@ module.exports = {
       return 'assets/misc/[name][ext]'; // أي ملف آخر
     },
     clean: true,
+    publicPath: '/saferne/',
   },
 
   devServer: {
