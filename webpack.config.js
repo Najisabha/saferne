@@ -101,3 +101,7 @@ module.exports = {
     minimizer: [new CssMinimizerPlugin()],
   },
 };
+// للعلم npm run deploy تستخدم لرفع الملفات إلى GitHub Pages
+// ولذا يجب أن يكون publicPath هو المسار الصحيح للمستودع
+// npm run build يقوم بإنشاء ملفات الإنتاج في مجلد dist
+// npm run start يقوم بتشغيل الخادم المحلي للتطوير
